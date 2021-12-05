@@ -1,0 +1,90 @@
+body{
+	background-color:#0099ff ;
+}
+
+p.question {
+    font-family: Arial, sans-serif;
+	font-size:1em;
+    color: black;
+    margin-bottom:0px;
+    margin-left:15%;
+}
+
+h1.quizHeader {
+    font-family: Arial, sans-serif;
+    font-weight:normal;
+    font-size:50px;
+    line-height: 27px;
+    margin: 24px 0 12px 0;
+    padding: 0 0 14px 0;
+    border-bottom: 3px solid #a2a2a2;
+    text-align : center;
+}
+
+h1.quizScore{
+    font-family: Arial, sans-serif;
+    font-size:25px;
+}
+
+div.quizAnswers{
+    font-family: Arial, sans-serif;
+    font-size:16px;
+    color: black;
+    margin-left: 20%;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-size:14px;
+    color: #424242;
+    vertical-align:top;
+}
+
+input.answer[type="radio"] {
+    margin-bottom: 10px;
+    margin-left: 15%;
+    color:black;
+}
+
+input.quizSubmit[type="submit"] {
+    color: white;
+    background-color: red;
+    margin-left: 400%;
+    border: 0;
+    outline: 0;
+    text-transform:uppercase;
+    height:35px;
+    width:85px;
+    border: 1px solid #5E5E5E;
+    border-radius:5px;
+    display: visible;
+} 
+
+input.quizSubmit[type="submit"]:hover {
+    color: #ffffff;
+    background: #680f11;
+    text-decoration: none;
+}
+
+.submitter {
+    width:85px;
+}
+
+.hide {
+    display:none;
+}
+.indexHeader {
+    font-size:2em;
+    font-style: underline;
+    text-align: Center;			
+}
+ol { 
+    text-align:center;
+    list-style-position:inside;
+}
+.quizSubmit{
+    display: visible;
+    height: 50px;
+    width: 150px;
+    background-color: red;
+}

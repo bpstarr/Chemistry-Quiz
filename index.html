@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang = en>
+	<head>
+	<link rel = "stylesheet" href = "style.css">
+		<title> Chemistry Quiz </title>
+	</head>
+	<body>
+        <h1 class="quizHeader">Chemistry Quiz</h1>
+        <div>
+            <p class="question">1. What class of organic compounds is characterized by an -OH group
+                bonded to an alkyl group?</p>
+            <ul>
+                <input class="answer" type="radio" name="q1" value="1">
+                <label id="correctString1">Alcohol</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label>Acid</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label>Water</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label>Base</label>
+            </ul>
+        </div>
+        <div>
+            <p class="question">2. Which of the following contain sp2 hybridized carbon atoms? </p>
+
+            <ul>
+                <input class="answer" type="radio" name="q2" value="0">
+                <label>Alkanes</label>
+                <br>
+                <input class="answer" type="radio" name="q2" value="1">
+                <label id="correctString2">Alkenes</label>
+                <br>
+                <input class="answer" type="radio" name="q2" value="0">
+                <label>Alkynes</label>
+                <br>
+                <input class="answer" type="radio" name="q2" value="0">
+                <label>CycloAlkanes</label>
+            </ul>
+        </div>
+        <div>
+            <p class="question">3. Which of the following is NOT an aromatic hydrocarbon?</p>
+
+            <ul>
+                <input class="answer" type="radio" name="q3" value="0">
+                <label>Naphthalene</label>
+                <br>
+                <input class="answer" type="radio" name="q3" value="1">
+                <label id="correctString3">Hexane</label>
+                <br>
+                <input class="answer" type="radio" name="q3" value="0">
+                <label>Styrene</label>
+                <br>
+                <input class="answer" type="radio" name="q3" value="0">
+                <label>Xylene</label>
+                </ul>
+		</div>
+        <div>
+            <p class="question">4. What element is represented by B?</p>
+
+            <ul>
+                <input class="answer" type="radio" name="q4" value="0">
+                <label>Bromine</label>
+                <br>
+                <input class="answer" type="radio" name="q4" value="0">
+                <label>Beryllium</label>
+                <br>
+                <input class="answer" type="radio" name="q4" value="1">
+                <label id="correctString4">Boron</label>
+                <br>
+                <input class="answer" type="radio" name="q4" value="0">
+                <label>Benzene</label>
+            </ul>
+        </div>
+
+<br/>
+<div class="submitter">
+    <input id="submitButton" class="quizSubmit" onclick="submitQuiz()" type="submit" value="Submit"/>
+</div>
+
+<!--show only wrong answers on submit-->
+    <div class="quizAnswers" id="correctAnswer1"></div>
+	<div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+
+<!--show score upon submit-->
+    <div>
+        <h2 class="quizScore" id="userScore"></h2>
+        <h2 class ="quizScore" id ="userPercentage"></h2>
+        <p class = "quizGrade" id = "userGrade"></p>
+    </div>
+	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type = "text/javascript" src = "function.js"></script> 
+</body>
+</html>
