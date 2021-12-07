@@ -5,4 +5,5 @@
 * The correct answers are displayed where the answers are incorrect.
 
 ##Demo
-![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/87786124/144941771-400e5e76-45eb-4fe3-a71b-3f5f2d55c46c.gif)
+
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/87786124/144942344-539d0b50-7c97-4e83-9dff-bb98865c78a8.gif)
